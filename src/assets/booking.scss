@@ -1,0 +1,28 @@
+.booking {
+    position: relative;
+    padding: 32px;
+    .row {
+        .form-group {
+            text-align: left;
+        }
+    }
+    .box {
+        position: relative;
+        background-color: #007bff;
+        color: white;
+        padding: 13px;
+        margin: 17px;
+        height: 104px;
+        padding-top: 22px;
+        cursor: pointer;
+        h3 {
+            font-size: 51px;
+        }
+    }
+    .selected.active {
+        box-shadow: 1px 1px 8px 8px #007bff;
+    }
+    .selected.booked {
+        background-color: tomato;
+    }
+}
